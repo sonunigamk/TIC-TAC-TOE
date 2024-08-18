@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(203, 221, 228);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gamename {
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    padding: 0.8rem 0rem;
+
+}
+
+.game {
+    height: 58vmin;
+    width: 60vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+
+.box {
+    height: 15vmin;
+    width: 15vmin;
+    background-color: lightblue;
+    border: 2px solid rgb(49, 49, 49);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    font-size: 8vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+}
+
+.btn button {
+    padding: 0.9rem 1rem;
+    background-color: rgb(143, 28, 70);
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+
+}
+
+h2 {
+    font-size: 2.2rem;
+    padding: 1.5rem;
+    padding-bottom: 0rem;
+
+}

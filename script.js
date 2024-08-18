@@ -5,7 +5,7 @@ let newGameBtn = document.querySelector("#new-game-btn");
 
 
 
-message.innerHTML = "";
+message.innerHTML = "";       //setting blank
 
 let turn = true;   ///user turn either x or o;
 
